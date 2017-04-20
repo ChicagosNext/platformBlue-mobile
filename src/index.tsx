@@ -4,7 +4,8 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import * as React from 'react';
+import { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -12,7 +13,7 @@ import {
   View
 } from 'react-native';
 
-export default class platformBlueMobile extends Component {
+export default class platformBlueMobile extends Component<any, any> {
   render() {
     return (
       <View style={styles.container}>
