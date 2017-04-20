@@ -1,0 +1,26 @@
+{
+  "name": "platformBlueMobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start --transformer node_modules/react-native-sm-transformer --skipflow",
+    "test": "jest",
+    "prebuild": "rmdir /s /q .\\artifacts & copyfiles -f .\\src\\images\\*.* .\\artifacts\\images",
+    "build": "tsc",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android"
+  },
+  "dependencies": {
+    "platformblue-data": "git+https://github.com/ChicagosNext/platformBlue-data.git",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.43.3"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

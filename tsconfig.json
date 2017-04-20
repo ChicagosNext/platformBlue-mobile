@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "jsx": "react",
+        "outDir": "artifacts",
+        "experimentalDecorators": true,
+        "rootDir": "src"
+    },
+    "filesGlob": [
+        "src/**/*.ts",
+        "src/**/*.tsx"        
+    ],
+    "exclude": [
+        "node_modules",
+        "artifacts", 
+        "__tests__"
+    ]
+
+}
