@@ -7,7 +7,11 @@
     "test": "jest",
     "prebuild": "rmdir /s /q .\\artifacts & copyfiles -f .\\src\\images\\*.* .\\artifacts\\images",
     "build": "tsc",
-    "android": "node node_modules/react-native/local-cli/cli.js run-android"
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "prembuild": "rm -R ./artifacts & copyfiles -f .\\src\\images\\*.* .\\artifacts\\images",
+    "mbuild" : "tsc"
+
   },
   "dependencies": {
     "platformblue-data": "git+https://github.com/ChicagosNext/platformBlue-data.git",
