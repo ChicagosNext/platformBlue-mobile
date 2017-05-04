@@ -14,7 +14,7 @@ This readct-native app will display data for all of the Blue events.
 Clone the repository to your local machine and install all required packages.
 
 ```
-git clone https://github.com/ChicagosNext/platformBlue-mobile
+git clone https://github.com/ChicagosNext/platformBlue-mobile platformBlueMobile
 npm install
 ```
 
