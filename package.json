@@ -28,6 +28,7 @@
     "@types/react-native": "^0.43.4",
     "babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
+    "faker": "^4.1.0",
     "jest": "19.0.2",
     "react-native-sm-transformer": "^1.0.3",
     "react-test-renderer": "16.0.0-alpha.6",

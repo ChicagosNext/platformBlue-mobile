@@ -9,11 +9,11 @@ import {
 import { observer } from 'mobx-react';
 
 
-import { images, globalStyles } from '../../config';
+// import { images, globalStyles } from '../../config';
 // import * as config from '../../config';
 import { ILoadingProps, ILoadingState } from './';
 import { styles } from './styles';
-import { authStore } from '../../stores';
+// import { authStore } from '../../stores';
 
 @observer
 export class Loading extends Component <ILoadingProps, ILoadingState> { 
@@ -24,7 +24,7 @@ export class Loading extends Component <ILoadingProps, ILoadingState> {
     render() {
         return ( 
             <View style={styles.background}>
-                <Image source={images.logo} style={styles.image} ></Image>
+                
             </View>
         );
     }

@@ -4,10 +4,11 @@ import {
   StyleSheet,
   Text,
   View,
-  Image
+  Image,
+  ListView
 } from 'react-native';
 import { observer } from 'mobx-react';
-
+import * as ReactNativeTable from 'react-native-data-table';
 
 
 
@@ -17,19 +18,8 @@ import { IEventsListProps, IEventsListState } from './';
 import { styles } from './styles';
 
 
-@observer
-export class Loading extends Component <IEventsListProps, IEventsListState> { 
 
-    //Check if authenticated
-    //if not show login screen
 
-    render() {
 
-    
-        return ( 
-            <View style={styles.background}>
-                
-            </View>
-        );
-    }
-}
+
+
